@@ -3,8 +3,9 @@
     padding-bottom: 20px;
     /*background-image: url('Images/kiwi.jpg');*/
     /*background: linear-gradient(45deg, rgba(246,125,25,1) 0%, rgba(71,72,73,1) 69%, rgba(2,7,15,1) 100%);*/
-    background: url('Images/orangish.png') no-repeat center center fixed;
-    color: white;
+    /*background: url('Images/orangish.png') no-repeat center center fixed;*/
+    background-color: rgb(250,250,250) !important;
+    color: black;
     background-size: cover;
 }
 
@@ -12,7 +13,9 @@
 .body-content {
     /*border: 1px solid black;*/
     /*background: linear-gradient(to right, rgb(219, 148, 6), rgb(183, 178, 168)) !important;*/
-    background-color: rgba(43,43,43,.75);
+    /*background-color: rgba(43,43,43,0.75);*/
+    padding-left: 350px;
+    padding-right: 25px;
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
@@ -31,7 +34,7 @@ textarea {
 
 #HomePagePanel {
     width: 100%;
-    min-height: 250px;    
+    min-height: 250px;
     margin-top: 20px;
 }
 
@@ -41,18 +44,17 @@ textarea {
 }
 
 .panel {
-    border: 1px solid rgba(255,255,255,0.35) !important;
+    border: 1px solid transparent;
     border-radius: 0px;
 }
 
 .panel-heading {
-    background-color: rgba(0, 0, 0,.75);
-    color: white;
+    background-color: rgba(175, 177, 181,0.35);
     border-radius: 0px;
 }
 
 .panel-body {
-    background-color: rgba(0,0,0,.65);
+    background-color: rgba(212, 215, 219,0.45);
 }
 
 .text-upper {
@@ -67,22 +69,49 @@ footer {
     padding-left: 15px;
 }
 
-#HomeImage {
-    height: 50% !important;
-    padding-top: 20px;
-    padding-left: 100px;
-}
 
 .top-content-section {
     padding-left: 15px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
-.btn-sm {
-    border: 1px solid rgba(255,255,255,0.35) !important;
-    width: 50px;
+#NavButtons {
+    padding-left: 50px;
 }
 
 .nopad-l {
     padding-left: 0px !important;
+}
+
+#NavButtons {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+    #NavButtons ul li {
+        display: inline;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        background-color: rgba(212, 215, 219,0.35);
+    }
+
+    #NavButtons ul li:hover {
+        cursor: pointer;
+    }
+
+.siteLogo {
+    margin-bottom: 30px;
+}
+
+#HomeImage {
+    padding-left: 100px;
+    padding-top: 25px;
 }

@@ -11,12 +11,21 @@
 <body>
     <div class="top-content-section">
         @*To be moved*@
-        <div class="btn-sm">Home</div>
+
+        <div class="text-center siteLogo"><img src="~/Content/Images/logo_low_res.png" /></div>
+        <div id="NavButtons">
+            <ul class="list-unstyled">
+                <li class="navButtonli">Home</li>
+                <li class="navButtonli">Services</li>
+                <li class="navButtonli">Gallery</li>
+                <li class="navButtonli">About Me</li>
+            </ul>
+        </div>
     </div>
     <div class="body-content">
         @RenderBody()
         <footer>
-            <p>Version 1.0.0</p>
+            <p>Version 1.0.1</p>
         </footer>
     </div>
 

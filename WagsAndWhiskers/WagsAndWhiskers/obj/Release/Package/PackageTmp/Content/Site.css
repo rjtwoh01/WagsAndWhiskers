@@ -1,12 +1,18 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+    /*background-image: url('Images/kiwi.jpg');*/
+    /*background: linear-gradient(45deg, rgba(246,125,25,1) 0%, rgba(71,72,73,1) 69%, rgba(2,7,15,1) 100%);*/
+    background: url('Images/orangish.png') no-repeat center center fixed;
+    color: white;
+    background-size: cover;
 }
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+    /*border: 1px solid black;*/
+    /*background: linear-gradient(to right, rgb(219, 148, 6), rgb(183, 178, 168)) !important;*/
+    background-color: rgba(43,43,43,.75);
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
@@ -21,4 +27,62 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+
+#HomePagePanel {
+    width: 100%;
+    min-height: 250px;    
+    margin-top: 20px;
+}
+
+#HomePanelHeading {
+    font-weight: 400;
+    font-size: large;
+}
+
+.panel {
+    border: 1px solid rgba(255,255,255,0.35) !important;
+    border-radius: 0px;
+}
+
+.panel-heading {
+    background-color: rgba(0, 0, 0,.75);
+    color: white;
+    border-radius: 0px;
+}
+
+.panel-body {
+    background-color: rgba(0,0,0,.65);
+}
+
+.text-upper {
+    text-transform: uppercase;
+}
+
+.text-lower {
+    text-transform: lowercase;
+}
+
+footer {
+    padding-left: 15px;
+}
+
+#HomeImage {
+    height: 50% !important;
+    padding-top: 20px;
+    padding-left: 100px;
+}
+
+.top-content-section {
+    padding-left: 15px;
+    padding-bottom: 20px;
+}
+
+.btn-sm {
+    border: 1px solid rgba(255,255,255,0.35) !important;
+    width: 50px;
+}
+
+.nopad-l {
+    padding-left: 0px !important;
 }
